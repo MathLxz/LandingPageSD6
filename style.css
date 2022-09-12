@@ -104,11 +104,11 @@ a {
     box-shadow: 3px 2px 4px #750A0A;
 }
 
-#img-sec-principal{
+#img-sec-principal {
     height: 350px;
 }
 
-#sec-secundaria{
+#sec-secundaria {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,7 @@ a {
     margin-top: 62px;
 }
 
-#titulo-sec{
+#titulo-sec {
     border-top: 0.4px whitesmoke solid;
     padding-top: 62px;
     font-family: 'Oldenburg', cursive;
@@ -125,7 +125,7 @@ a {
     font-size: 25px;
 }
 
-#descricao{
+#descricao {
     font-family: 'Zen Old Mincho', serif;
     font-size: 20px;
     font-weight: 300;
@@ -133,14 +133,13 @@ a {
     text-align: center;
 }
 
-#rodape{
+#rodape {
     border-top: 0.4px whitesmoke solid;
     padding: 32px;
 }
 
-#img-footer{
+#img-footer {
     display: block;
     margin: 0 auto;
     height: 120px;
 }
-   
