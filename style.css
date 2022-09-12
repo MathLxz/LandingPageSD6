@@ -38,7 +38,7 @@ a {
 
 .link-nav {
     font-family: 'Zen Old Mincho', serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     color: white;
 }
@@ -106,6 +106,7 @@ a {
 
 #img-sec-principal {
     height: 350px;
+    filter: drop-shadow(3px 3px 2px);
 }
 
 #sec-secundaria {
