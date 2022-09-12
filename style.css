@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&family=Zen+Old+Mincho&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(65.15deg, #C12121 16.62%, rgba(1, 0, 0, 0.88) 85.60%);
+}
+
+a {
+    color: inherit;
+
+}
+
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+#logo {
+    height: 90px;
+    filter: drop-shadow(3px 3px 2px);
+}
+
+#navbar {
+    display: flex;
+    gap: 32px;
+
+}
+
+.link-nav {
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.link-nav:hover {
+    filter: drop-shadow(3px 3px 2px red);
+}
+
+#conteudo-principal {
+    border-top: 0.4px whitesmoke solid;
+    margin-bottom: 48px;
+}
+
+#sec-principal {
+    display: flex;
+    padding-top: 62px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+#div-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#titulo-txt {
+    font-family: 'Oldenburg', cursive;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+#subtitulo-txt {
+    font-family: 'Oldenburg', cursive;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#autor-txt {
+    margin-left: 400px;
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+#btn_comp_txt {
+    border: none;
+    background-color: #FF4545;
+    color: whitesmoke;
+    width: 180px;
+    height: 67px;
+    border-radius: 18px;
+    font-size: 20px;
+    font-family: 'Oldenburg', cursive;
+    font-weight: 400;
+}
+
+#btn_comp_txt:hover {
+    box-shadow: 3px 2px 4px #750A0A;
+}
+
+#img-sec-principal{
+    height: 350px;
+}
+
+#sec-secundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 62px;
+}
+
+#titulo-sec{
+    border-top: 0.4px whitesmoke solid;
+    padding-top: 62px;
+    font-family: 'Oldenburg', cursive;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#descricao{
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+#rodape{
+    border-top: 0.4px whitesmoke solid;
+    padding: 32px;
+}
+
+#img-footer{
+    display: block;
+    margin: 0 auto;
+    height: 120px;
+}
+   
